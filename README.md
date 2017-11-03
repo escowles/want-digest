@@ -19,7 +19,18 @@ mkdir /usr/share/nginx/perl
 cp WantDigest.pm /usr/share/nginx/perl
 ```
 
-See nginx.conf for basic configuration.
+See `nginx.conf` for basic configuration, and `demo.sh` for sample curl
+commands to demonstrate the header functionality.
+
+
+### Vagrant
+
+There is a Vagrant configuration in `Vagrantfile`.  You can spin up a VM with
+the module installed with:
+
+```bash
+vagrant up
+```
 
 
 ### Acknowledgements
